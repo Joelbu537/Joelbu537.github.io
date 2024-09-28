@@ -14,8 +14,18 @@
     font-weight: normal;
     font-style: italic;
 }
+@font-face {
+    font-family: Aptos_serif;
+    src: url(fonts/Aptos-Serif.ttf) format('truetype');
+}
+@font-face {
+    font-family: Aptos;
+    src: url(fonts/Aptos-Bold-Italic.ttf) format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
 body{
     background-color: white;
     font-family: 'Aptos';
-    font-weight: bold;
+    font-weight: normal;
 }
