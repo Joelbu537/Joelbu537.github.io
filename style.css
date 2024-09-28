@@ -39,13 +39,11 @@ body{
     left: 0;
     top: 0;
     width: 250px; /*Breite*/
-    height: 97vh; /* Ganzer Screen*/
+    height: 100vh; /* Ganzer Screen*/
     background-color: #0969DA;
-    border-bottom-right-radius: 20px;
     color: black;
     padding: 10px;
     border: 0px;
-    border-bottom: 5px;
     border-style: solid;
     border-color: #333;
 }
@@ -55,7 +53,7 @@ button.default {
     border: 0;
     border-radius: 100px;
     box-sizing: border-box;
-    color: #ffffff;
+    color: white;
     cursor: pointer;
     display: inline-flex;
     font-size: 16px;
@@ -71,8 +69,40 @@ button.default {
     padding-right: 20px;
     text-align: center;
     vertical-align: middle;
+    border: 0px;
 }
-a {
+button a {
     text-decoration: none;
+    color: white;
+}
+button.default:hover{
     color: black;
+    background-color: white;
+    border-style: solid;
+}
+button.default:hover a{
+    color: black;
+    background-color: white;
+}
+div.element button.downloadBtn{
+    background-color: #099344;
+    border: none;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 22px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+div.element button.downloadBtn:hover{
+    background-color: greenyellow;
+}
+div.element {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #FF0000;
+    width: 100%;
+    height: 450px;
+    position: relative;
 }
