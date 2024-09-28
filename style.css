@@ -29,3 +29,50 @@ body{
     font-family: 'Aptos';
     font-weight: normal;
 }
+.content {
+    margin-left: 300px;
+    padding: 20px;
+    flex: 1;
+}
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 250px; /*Breite*/
+    height: 97vh; /* Ganzer Screen*/
+    background-color: #0969DA;
+    border-bottom-right-radius: 20px;
+    color: black;
+    padding: 10px;
+    border: 0px;
+    border-bottom: 5px;
+    border-style: solid;
+    border-color: #333;
+}
+button.default {
+    align-items: center;
+    background-color: black;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
