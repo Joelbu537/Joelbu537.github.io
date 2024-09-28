@@ -101,8 +101,26 @@ div.element {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
-    background-color: #FF0000;
     width: 100%;
     height: 450px;
     position: relative;
+    border: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #D1D9E0;
+}
+div.element div.content{
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: blue;
+    top: 0px;
+    left: 30px;
+    right: 30px;
+    bottom: 55px;
+    position: absolute;
+    box-sizing: border-box;
+}
+div.element div.content h1{
+    margin: 0px;
 }
