@@ -1,3 +1,7 @@
+window.onload = LoadPage();
+function LoadPage(){
+    return;
+}
 function clickedDownload(item){
     switch(item){
         case 0:
