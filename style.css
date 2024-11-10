@@ -41,6 +41,7 @@ div.main {
 }
 div.main_frame{
     background: linear-gradient(to bottom right, #0868C0, #FFFFFF);
+    background-attachment: fixed;
     top: 0;
     bottom: 0;
     width: 100%;
