@@ -12,7 +12,7 @@ function clickedDownload(item){
             window.open("https://github.com/Joelbu537/C-Tic-Tac-Toe/releases/download/release/tictactoe.exe");
             break;
         case 2:
-            window.open("https://github.com/Joelbu537/C-Dump/releases/download/release/2d_test.zip");
+            window.open("https://github.com/Joelbu537/C-Dump/releases/download/release/game.zip");
             break;
     }
 }
